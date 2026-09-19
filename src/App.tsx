@@ -6,7 +6,7 @@ import Hero from "./Component/Hero.tsx";
 import Stacks from "./Component/StackSection/Stacks.tsx";
 import SelectedStack from "./Component/StackSection/SelectedStack.tsx";
 
-import type { Stack } from "./types/stackTypes";
+import type { Stack } from "./Component/types/stackTypes";
 
 // Fetch stack data
 const fetchStacks = async (): Promise<Stack[]> => {

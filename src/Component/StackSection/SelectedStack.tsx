@@ -1,5 +1,5 @@
 import { FiTrash2, FiX } from "react-icons/fi";
-import type { Stack } from "../../types/stackTypes";
+import type { Stack } from "../types/stackTypes";
 
 type SelectedStackProps = {
   stacks: Stack[];

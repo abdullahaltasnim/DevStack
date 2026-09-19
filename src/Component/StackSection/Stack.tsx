@@ -1,7 +1,7 @@
 import { FiCheck } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
 
-import type { Stack } from "../../types/stackTypes";
+import type { Stack } from "../types/stackTypes";
 
 type StackCardProps = {
   stack: Stack;
